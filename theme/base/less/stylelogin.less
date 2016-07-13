@@ -1,0 +1,82 @@
+@import "variables.less";
+@import "mixins.less";
+
+
+body {
+	background: #f2f2f2;
+	color: #797979;
+	font-family: 'Ruda', sans-serif;
+	font-size:13px;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.modal-header {
+	background: @color3;
+}
+.modal-title {
+	color: white;
+}
+.accordion-heading {
+	.accordion-toggle {
+		background-color: @color0;
+		border-top: 1px solid #F5F5F5;
+		color: #1a1a1a;
+		cursor: pointer;
+		display: block;
+		line-height: 28.75px;
+		outline: none !important;
+		padding: 5px 0px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+.form-login {
+	-webkit-border-radius: 5px;
+	background: @color0;
+	border-radius: 5px;
+	margin: 100px auto 0;
+	max-width: 330px;
+	h2.form-login-heading {
+		-webkit-border-radius: 5px 5px 0 0;
+		background: @color3;
+		border-radius: 5px 5px 0 0;
+		color: @color0;
+		font-size: 20px;
+		font-weight: 300;
+		margin: 0;
+		padding: 25px 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+.login-wrap {
+	padding: 20px;
+	.registration {
+		text-align: center;
+	}
+}
+.login-social-link {
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.btn-facebook {
+	background-color: #5193ea;
+	border-color: @color1;
+	color: @color0;
+}
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open .dropdown-toggle.btn-facebook  {
+	background-color: @color1;
+	border-color: @color1;
+	color: @color0;
+}
+.btn-twitter {
+	background-color: #44ccfe;
+	border-color: @color2;
+	color: @color0;
+}
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .open .dropdown-toggle.btn-twitter  {
+	background-color: @color2;
+	border-color: @color2;
+	color: @color0;
+}

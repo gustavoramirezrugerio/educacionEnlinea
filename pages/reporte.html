@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="educación, educacion, competencias, elearning, eLearning, capacitación, capacitacion">
+    <meta name="author" content="planetmedia, http://www.planetmedia.com.mx/">
+    <title>Gestor competencias</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Material Design -->
+  <link href="../bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" rel="stylesheet">
+    
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morris/morris.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../theme/base/css/custom.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gestor competencias</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+
+                <li class="dropdown">
+
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Curso: Que es el SISI</strong>
+                                        <span class="pull-right text-muted">40% avance</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% avance</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Taller: Fuentes de la información</strong>
+                                        <span class="pull-right text-muted">20% avance</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% avance</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Taller: Conociendo la SEDESOL</strong>
+                                        <span class="pull-right text-muted">60% avance</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% avance (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Curso: Material Design</strong>
+                                        <span class="pull-right text-muted">80% avance</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% avance (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Ver mis cursos</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> Inicio de sesion
+                                    <span class="pull-right text-muted small">Hace 4 minutos </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> Nuevo mensaje
+                                    <span class="pull-right text-muted small">Hace 2 minutos </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Mensaje enviado
+                                    <span class="pull-right text-muted small">Hace 4 minutos </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> Matriculado al curso
+                                    <span class="pull-right text-muted small">Hace 4 minutos </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Cargo archivo
+                                    <span class="pull-right text-muted small">Hace 4 minutos </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Ver mensajes</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil del usuario</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Configuración</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Salir </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <div>
+                            <p class="alineacion_centrado">
+                                <a href="profile.html">
+                                    <img src="../filesystem/usuario/perfil/cvega@planetmedia.jpg" class="img-circle" width="60"></a>
+                                    <h5 class="alineacion_centrado"> <strong>Cristina Vega</strong></h5>
+                            </p>
+                            <select class="form-control">
+                              <option value="modulo_a">Administración</option>
+                              <option value="modulo_b">Gestión escolar</option>
+                              <option value="modulo_c">Logística académica e infraestructura</option>
+                              <option value="modulo_d">Planes y programas de estudio</option>
+                              <option value="modulo_e">Análisis de datos</option>
+                              <option value="modulo_f">Ambientes de aprendizaje</option>
+                              <option value="modulo_g">Encuestas y evaluaciones</option>
+                            </select>
+
+                            <select class="form-control">
+                              <option value="modulo_a">Admin</option>
+                              <option value="modulo_b">Coordinador</option>
+                            </select>
+
+                        </div>
+
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Flot Charts</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Morris.js Charts</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        </li>
+                        <li>
+                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panels-wells.html">Panels and Wells</a>
+                                </li>
+                                <li>
+                                    <a href="buttons.html">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="notifications.html">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="icons.html"> Icons</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grid</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                    </ul>
+                                    <!-- /.nav-third-level -->
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li class="">
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a class="active" href="blank.html">Blank Page</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">Login Page</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> REPORTE<span class="fa arrow"></span></a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Administración <small> <span class=""> > </span> reporte de cursos </small> </h1> 
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+
+
+            <div class="row">
+                <div class="col-lg-12">
+
+                     <section id="contacto" class="contacto">
+
+
+
+                    <h1 class="header">Toggle Button</h1>
+
+                    <div class="togglebutton">
+                      <label>
+                        Wi-Fi
+                        <input type="checkbox" checked="">
+                      </label>
+                    </div>
+                    <div class="togglebutton">
+                      <label>
+                        Bluetooth
+                        <input type="checkbox">
+                      </label>
+                    </div>
+
+                    
+
+
+
+
+
+                       <h1 class="header">Radio buttons</h1>
+
+                        <h2>Default <small>outside a <code>.form-group</code></small></h2>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="sample1" value="option1" checked="">
+                            Always
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="sample1" value="option1">
+                            Only when plugged in
+                          </label>
+                        </div>
+
+                        <h2>Default inside a <small><code>.form-group</code></small></h2>
+                        <div class="form-group">
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="sample1" value="option1" checked="">
+                              Always
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="sample1" value="option1">
+                              Only when plugged in
+                            </label>
+                          </div>
+                        </div>
+
+                    </section>
+
+
+
+                </div>
+            </div>
+
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                                    <div class="container-fluid">
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Reporte de cursos</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Cursos con mas demanda</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-donut-chart"></div>
+                                <div class="text-right">
+                                    <a href="#">Ver detalles <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Curso visitados recientemente</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Justo ahora</span>
+                                        <i class="fa fa-fw fa-globe"></i> Conociendo la SEDESOL
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Fuentes de la información
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Que es el SISI
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Desempeño laboral
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 30 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 2 dias</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 2 dias</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todos <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-calendar fa-fw"></i> Usuarios destacados</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Curso</th>
+                                                <th>Calificación</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cristina Vega</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>99.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jorge Polo Contreras</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>99.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Alejandra de la Rosa</td>
+                                                <td>Que es el SISI</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Erick Ledezma</td>
+                                                <td>Que es el SISI</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Adriana Sanchez </td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Didia Periañes</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oscar Martinez </td>
+                                                <td>Fuentes de la información</td>
+                                                <td>96.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Carlos Lopez</td>
+                                                <td>Fuentes de la información</td>
+                                                <td>96.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver usuarios destacados <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+
+
+
+
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/raphael/raphael-min.js"></script>
+    <script defer type="text/javascript" src="../bower_components/morrisjs/morris.min.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script defer type="text/javascript" src="../assets/js/main.js"></script>
+    <script defer type="text/javascript" src="../assets/js/componenteMenu.js"></script>
+    <script defer type="text/javascript" src="../assets/js/morris-data.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

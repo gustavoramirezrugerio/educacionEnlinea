@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="educación, educacion, competencias, elearning, eLearning, capacitación, capacitacion">
+    <meta name="author" content="planetmedia, http://www.planetmedia.com.mx/">
+
+    <title>Gestor competencias</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+
+    <!-- Timeline CSS -->
+    
+
+    <!-- Custom CSS -->
+    <link href="../theme/base/css/custom.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script defer type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script defer type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gestor eLearning</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+
+                    <ul class="dropdown-menu extended tasks-bar">
+                          <div class="notify-arrow notify-arrow-green"></div>
+                          <li> <span class="label label-info">Cursos/talleres pendientes</span> </li>
+
+                          <li>
+                            <a href="index.html#">
+                              <div class="task-info">
+                                <div class="desc">Curso: Que es el SISI</div>
+                                <div class="percent">40%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                  <span class="sr-only">40% Completado</span>
+                                </div>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="index.html#">
+                              <div class="task-info">
+                                  <div class="desc">Taller: Fuentes de la información</div>
+                                  <div class="percent">60%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                      <span class="sr-only">60% Completo</span>
+                                  </div>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="index.html#">
+                              <div class="task-info">
+                                <div class="desc">Taller: Conociendo la SEDESOL</div>
+                                <div class="percent">80%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                  <span class="sr-only">80% Completo</span>
+                                </div>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li>
+                              <a href="index.html#">
+                                  <div class="task-info">
+                                      <div class="desc">Curso: Desempeño laboral</div>
+                                      <div class="percent">70%</div>
+                                  </div>
+                                  <div class="progress progress-striped">
+                                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                          <span class="sr-only">70% Completo </span>
+                                      </div>
+                                  </div>
+                              </a>
+                          </li>
+
+                          <li class="external">
+                              <a href="#">Ver todos mis cursos </a>
+                          </li>
+
+                    </ul>
+
+
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <span class="label label-info">Notificaciones</span>
+                        </li>
+                        <li>
+                            <a href="#">Ha reservado la sala de juntas</a>
+                        </li>
+                        <li>
+                            <a href="#">Tiene una actividad pendiente</a>
+                        </li>
+                        <li>
+                            <a href="#">Esta registrado en el curso: Que es el SISI</a>
+                        </li>
+                        <li>
+                            <a href="#">Esta registrado en el taller: Mision de la DGGPB</a>
+                        </li>
+                        <li>
+                            <a href="#">Tiene una actividad pendiente</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Ver todas las notificaciones</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Administrador general <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensajes</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Configuración</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="login.html"><i class="fa fa-fw fa-power-off"></i> Cerrar sesion</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="">
+                        <p  class="">
+                            <a href="#" >
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="assets/img/cris.jpg" class="img-circle" width="60">
+                            </a>
+                        </p>
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Administración <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#">Catalogos</a>
+                            </li>
+                            <li>
+                                <a href="#">Edicion de sistema</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Permisos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Administración <small></small>
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i> Inicio
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Reporte de cursos</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Cursos con mas demanda</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-donut-chart"></div>
+                                <div class="text-right">
+                                    <a href="#">Ver detalles <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Curso visitados recientemente</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Justo ahora</span>
+                                        <i class="fa fa-fw fa-globe"></i> Conociendo la SEDESOL
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Fuentes de la información
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Que es el SISI
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Desempeño laboral
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 30 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 10 minutos</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 2 dias</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">Hace 2 dias</span>
+                                        <i class="fa fa-fw fa-globe"></i> Lorem ipsum dolor.
+                                    </a>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todos <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-calendar fa-fw"></i> Usuarios destacados</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Curso</th>
+                                                <th>Calificación</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cristina Vega</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>99.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jorge Polo Contreras</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>99.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Alejandra de la Rosa</td>
+                                                <td>Que es el SISI</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Erick Ledezma</td>
+                                                <td>Que es el SISI</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Adriana Sanchez </td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Didia Periañes</td>
+                                                <td>Conociendo la SEDESOL</td>
+                                                <td>98.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oscar Martinez </td>
+                                                <td>Fuentes de la información</td>
+                                                <td>96.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Carlos Lopez</td>
+                                                <td>Fuentes de la información</td>
+                                                <td>96.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver usuarios destacados <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script defer type="text/javascript" src="../bower_components/raphael/raphael-min.js"></script>
+    <script defer type="text/javascript" src="../bower_components/morrisjs/morris.min.js"></script>
+    <script defer type="text/javascript" src="../js/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script defer type="text/javascript" src="../assets/js/custom.js"></script>
+
+</body>
+
+</html>
